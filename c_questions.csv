@@ -1,0 +1,21 @@
+question,optionA,optionB,optionC,optionD,correctAnswer,marks
+What is the default return type of a function in C?,int,float,void,char,A,1
+Which symbol is used for single-line comment in C?,//,/* */,#,--,A,1
+Which function is used to take input in C?,input(),scanf(),get(),read(),B,1
+Which header file is required for printf()?,stdlib.h,conio.h,stdio.h,string.h,C,1
+What is the size of int in C (commonly)?,2 bytes,4 bytes,8 bytes,Depends on system,D,1
+Which operator is used to access address?,*,&,%,@,B,1
+Which keyword is used to declare constant?,const,static,define,final,A,1
+Which loop executes at least once?,for,while,do-while,none,C,1
+Which data type stores single character?,int,char,float,double,B,1
+Which symbol represents pointer in C?,*,&,%,#,A,1
+Which function is used to find string length?,strlen(),size(),length(),strsize(),A,1
+Which header file is used for string functions?,string.h,strings.h,stdlib.h,stdio.h,A,1
+Which keyword is used to return value?,break,return,exit,continue,B,1
+Which operator is used for multiplication?,*,x,#,&,A,1
+Which symbol ends a statement in C?,.,;,!,?,B,1
+Which loop is best for fixed iterations?,while,do-while,for,none,C,1
+Which function is used to allocate memory dynamically?,malloc(),alloc(),new(),create(),A,1
+Which keyword is used for decision making?,if,loop,case,select,A,1
+Which operator is used for equality check?,=,==,!=,>=,B,1
+Which keyword is used to define structure?,struct,class,define,record,A,1
