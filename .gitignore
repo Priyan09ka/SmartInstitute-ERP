@@ -31,3 +31,21 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local config & secrets ###
+src/main/resources/application.properties
+application-local.properties
+.env
+.env.*
+!.env.example
+
+### Local import data (may contain PII) ###
+/data/
+/imports/
+/uploads/
+*_Student.csv
+fybca_Student.csv
+
+### Build & dependencies ###
+node_modules/
+erp-frontend/dist/

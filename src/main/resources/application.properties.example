@@ -9,7 +9,7 @@ spring.servlet.multipart.max-request-size=10MB
 server.port=8081
 spring.datasource.url=jdbc:mysql://localhost:3306/smartinstitute
 spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.password=CHANGE_ME
 
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
@@ -19,19 +19,15 @@ spring.jpa.properties.hibernate.format_sql=true
 
 # Outgoing mail (SmtpMailService). Set erp.mail.enabled=false to skip sending (no SMTP connection).
 erp.mail.enabled=true
-# spring.mail.host MUST be an SMTP server hostname — NOT your email address.
-# Gmail example (use an App Password: Google Account → Security → 2-Step Verification → App passwords):
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
-spring.mail.username=pmasalkar7@gmail.com
+spring.mail.username=CHANGE_ME_EMAIL
 spring.mail.password=CHANGE_ME_APP_PASSWORD
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
-# Optional: connection timeout ms (avoid hanging forever)
 spring.mail.properties.mail.smtp.connectiontimeout=10000
 spring.mail.properties.mail.smtp.timeout=10000
 spring.mail.properties.mail.smtp.writetimeout=10000
 
-# Reduce noise: CORS cache-miss is normal on first request per path
 logging.level.org.springframework.web.servlet.handler.HandlerMappingIntrospector=ERROR
